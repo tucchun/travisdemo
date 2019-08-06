@@ -3,12 +3,12 @@ install: npm install
 before_script: npm run build
 script: npm test
 os:
-  - inux
+  - linux
   - osx
 node_js:
+  - "10"
+  - "9"
   - "8"
-  - "7"
-  - "6"
 branches:
   only:
     - master
