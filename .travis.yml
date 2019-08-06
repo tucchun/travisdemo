@@ -3,15 +3,15 @@ install: npm install
 before_script: npm run build
 script: npm test
 os:
--  linux
--  osx
+  - inux
+  - osx
 node_js:
--  "8"
--  "7"
--  "6"
+  - "8"
+  - "7"
+  - "6"
 branches:
   only:
--   master
+    - master
 notifications:
   email:
--   tucchun@hotmail.com
+    - tucchun@hotmail.com
